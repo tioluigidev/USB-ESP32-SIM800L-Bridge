@@ -2,12 +2,12 @@
 Small piece of code to make the ESP32 act as a bridge between the USB interface and the SIM800L GPRS/GSM module. For debugging purposes.
 
 ## Description
-This code makes the ESP32 microcontroller act as a simple bridge between the usb port and the SIM800L GPRS/GSM modem when they are mounted on the same module. It is intended for debugging purposes or test AT commands for example. It was design for the module below:
+This code makes the ESP32 microcontroller act as a simple bridge between the usb port and the SIM800L GPRS/GSM modem when they are mounted on the same module. It is intended for debugging purposes or test AT commands for example. It was designed for the module below:
 ![ESP32 with SIM800L modem](module.jpg)
-The SIM800L is a GPRS/GSM modem, so it depends on 2G network. Before purchasing one of these, make sure that in your region there is a telephony company providing 2G network. You will also need a sim card from that company.
+The SIM800L is a GPRS/GSM modem, so it depends on 2G network. Before purchasing one of these, make sure that in your region there is a telephony company providing a 2G network. You will also need a sim card for that company.
 
 ## How to use it
-First, make sure that you have the ESP32 board in your Arduino IDE. If don't, install it:
+First, make sure that you have the ESP32 board in your Arduino IDE. If you don't, install it:
 
 - Menu Arduino -> Preferences...
 - In Additional Boards Manager URLs:, add: https://dl.espressif.com/dl/package_esp32_index.json
