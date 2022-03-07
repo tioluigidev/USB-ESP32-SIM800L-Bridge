@@ -1,5 +1,5 @@
 # USB-ESP32-SIM800L-Bridge
-Small piece of code to make the ESP32 act as a bridge between the USB interface and the SIM800L GPRS/GSM module. For debugging purposes.
+Small piece of code to make the ESP32 act as a bridge between the USB interface and the SIM800L GPRS/GSM module serial port. For debugging purposes.
 
 ## Description
 This code makes the ESP32 microcontroller act as a simple bridge between the usb port and the SIM800L GPRS/GSM modem when they are mounted on the same module. It is intended for debugging purposes or test AT commands for example. It was designed for the module below:
